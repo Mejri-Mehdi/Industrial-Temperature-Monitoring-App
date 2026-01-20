@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".HomePage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvTemperatureLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature Compteur"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/Room1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cabine 1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvTemperatureLabel"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTemperature1"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="25"
+            android:layout_below="@id/Room1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/progress_temperature" />
+
+        <TextView
+            android:id="@+id/tvTemperatureValue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25°C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/progressBarTemperature1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/Room2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cabine 2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvTemperatureValue1"
+            android:layout_marginTop="47dp"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTemperature2"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="25"
+            android:layout_below="@id/Room2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/progress_temperature" />
+
+        <TextView
+            android:id="@+id/tvTemperatureValue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70°C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/progressBarTemperature2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/Room3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruleur 1 F1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvTemperatureValue2"
+            android:layout_marginTop="47dp"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTemperature3"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="25"
+            android:layout_below="@id/Room3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/progress_temperature" />
+
+        <TextView
+            android:id="@+id/tvTemperatureValue3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70°C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/progressBarTemperature3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/Room4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruleur 1 F2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvTemperatureValue3"
+            android:layout_marginTop="47dp"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTemperature4"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="25"
+            android:layout_below="@id/Room4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/progress_temperature" />
+
+        <TextView
+            android:id="@+id/tvTemperatureValue4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70°C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/progressBarTemperature4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/Room5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruleur 2 F1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvTemperatureValue4"
+            android:layout_marginTop="47dp"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTemperature5"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="25"
+            android:layout_below="@id/Room5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/progress_temperature" />
+
+        <TextView
+            android:id="@+id/tvTemperatureValue5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70°C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/progressBarTemperature5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/Room6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruleur 2 F2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvTemperatureValue5"
+            android:layout_marginTop="47dp"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTemperature6"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="25"
+            android:layout_below="@id/Room6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/progress_temperature" />
+
+        <TextView
+            android:id="@+id/tvTemperatureValue6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70°C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/progressBarTemperature6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/Room7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bruleur 1 F3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/tvTemperatureValue6"
+            android:layout_marginTop="47dp"
+            android:layout_centerHorizontal="true" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTemperature7"
+            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:progress="25"
+            android:layout_below="@id/Room7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:progressDrawable="@drawable/progress_temperature" />
+
+        <TextView
+            android:id="@+id/tvTemperatureValue7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="70°C"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_below="@id/progressBarTemperature7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/refresh_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Refresh"
+            android:layout_below="@id/tvTemperatureValue7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_below="@id/refresh_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+
+</ScrollView>

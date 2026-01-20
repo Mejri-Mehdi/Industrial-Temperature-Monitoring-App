@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "860821279526",
+    "project_id": "vernicolorloginregister",
+    "storage_bucket": "vernicolorloginregister.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860821279526:android:67ef708d98ff0d2897e7e7",
+        "android_client_info": {
+          "package_name": "com.example.vernicolor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQWxlGil2H5T7rjwUoS_vUYuoPHvvB5Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860821279526:android:8e54155eaa55ad9297e7e7",
+        "android_client_info": {
+          "package_name": "com.example.vernicolorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQWxlGil2H5T7rjwUoS_vUYuoPHvvB5Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
