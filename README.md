@@ -26,6 +26,15 @@ If temperature exceeds limits, alerts are sent immediately to the user.
 
 All data is logged in a MySQL database for historical tracking and analysis.
 
+
+⚙️ Technologies Used
+
+Kotlin – Android development
+
+Android Studio – IDE
+
+MySQL – Database for storing sensor data
+
 📱 Screenshots
 
 
@@ -38,10 +47,3 @@ All data is logged in a MySQL database for historical tracking and analysis.
 
 
 
-⚙️ Technologies Used
-
-Kotlin – Android development
-
-Android Studio – IDE
-
-MySQL – Database for storing sensor data
