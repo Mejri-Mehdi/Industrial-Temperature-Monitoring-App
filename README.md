@@ -37,3 +37,7 @@ MySQL – Database for storing sensor data
 
 📱 Screenshots
 
+<p align="center"> 
+  <img src="https://github.com/user-attachments/assets/9fc0d988-0054-42cb-8921-be8c613421d5" alt="Screenshot 1" width="400"/> 
+  <img src="https://github.com/user-attachments/assets/78707e92-9d12-443e-851b-152533a0689f" alt="Screenshot 2" width="400"/> 
+</p>
