@@ -39,10 +39,10 @@ MySQL – Database for storing sensor data
 
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/9fc0d988-0054-42cb-8921-be8c613421d5" alt="Screenshot 1" width="400"/>
-  <img src="https://github.com/user-attachments/assets/78707e92-9d12-443e-851b-152533a0689f" alt="Screenshot 2" width="400"/>
-  <img src="https://github.com/user-attachments/assets/a36d10b3-9c96-4aae-8ab0-e904a0c7b9d2" alt="Screenshot 3" width="400"/>
-  <img src="https://github.com/user-attachments/assets/c17e3427-641d-45e9-8aae-9d2db335f882" alt="Screenshot 4" width="400"/>
+  <img src="https://github.com/user-attachments/assets/9fc0d988-0054-42cb-8921-be8c613421d5" width="250"/>
+  <img src="https://github.com/user-attachments/assets/78707e92-9d12-443e-851b-152533a0689f" width="250"/>
+  <img src="https://github.com/user-attachments/assets/a36d10b3-9c96-4aae-8ab0-e904a0c7b9d2" width="250"/>
+  <img src="https://github.com/user-attachments/assets/c17e3427-641d-45e9-8aae-9d2db335f882" width="250"/>
 </p>
 
 
