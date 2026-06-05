@@ -72,23 +72,6 @@ Open the project in Android Studio.
 
 Sync Gradle and let the project build.
 
-⚠️ Configuration
-Edit the database connection settings in the project’s configuration file (e.g., app/src/main/res/values/config.xml or a dedicated .kt file):
-
-DB_HOST – your MySQL server IP/domain
-
-DB_PORT – MySQL port (default 3306)
-
-DB_NAME – database name
-
-DB_USER – MySQL username
-
-DB_PASSWORD – MySQL password
-
-The exact configuration file may vary; check the project sources for details.
-
-Run the app on your device or emulator.
-
 🧑‍💻 Usage
 Open the app and grant required permissions (network, notifications).
 
@@ -112,4 +95,4 @@ Export data to PDF/CSV
 📄 License
 This project is open‑source and free to use under the MIT License.
 
-<p align="center"> <sub>Made with ❤️ by <a href="https://github.com/Mejri-Mehdi">Mejri Mehdi</a></sub> </p> ```
+<p align="center"> <sub>Made with ❤️ by <a href="https://github.com/Mejri-Mehdi">Mejri Mehdi</a></sub> </p>
